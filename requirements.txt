@@ -1,0 +1,3 @@
+# Wumbo Jumbo Casino Game
+# No third-party dependencies: the game only uses the Python standard library.
+# Add packages below if that ever changes.

@@ -2,7 +2,7 @@
 
 A tiny story-based text game that's just for the terminal and written in Python.
 
-> **Status:** early draft (v1.0.0). Only the intro, and some parts of the main menu exist.
+> **Status:** (v1.0.1). The intro, the menu, and an empty settings screen exist.
 
 ## About
 
@@ -13,6 +13,7 @@ see what is waiting for you at the end of it.
 
 - Typewriter-style text that prints one character at a time to keep you engaged and interested
 - Colored text to make the game more visually appealing
+- Amazing menu animations
 - Hidden features and easter eggs?
 
 ## Requirements
@@ -40,16 +41,18 @@ pressing Enter:
 | ------ | ---------------- |
 | 1      | Enter the Casino |
 | 2      | Stall time       |
-| 3      | Walk away        |
+| 3      | Settings         |
+| 4      | Walk away        |
 
-Option 1 does not lead anywhere yet. Option 2 stalls time, and the game keeps
-count. Option 3 ends the game. See the roadmap below.
+Option 1 opens a menu of its own, which is still empty. Option 2 stalls time and
+the game keeps count, so don't push your luck. Option 3 opens the settings menu,
+which is also still empty. Option 4 ends the game. See the roadmap below.
 
 ## Roadmap
 
 - [ ] Coin system
 - [ ] More menu options
-- [ ] Settings menu
+- [ ] Actual settings options to put in the settings menu
 - [ ] ASCII art text
 
 ## Project files

@@ -2,6 +2,32 @@
 
 What's new in the Wumbo Jumbo Casino Game.
 
+## Unreleased
+
+Stuff that's in the game right now but not in a version yet.
+
+### Added
+
+- Text Speed in the settings menu. Slow, Normal, and Fast. It actually changes the typing speed now.
+- The game gets impatient if you sit at a prompt. It starts yapping after 10 seconds, and if you keep ignoring it, it takes 10 coins.
+- Press g to speed up the line that's typing. f still skips the intro.
+- Every "you" is red now. You, your, you're, all of it.
+- You start with 100 coins. The easter egg gives you 100 more, but only once.
+- The menu redraws after the easter egg messages so you're not left staring at nothing.
+
+### Changed
+
+- Settings stays on the settings menu after you change the text speed.
+- Took out the empty Text Color option. Just Text Speed and Go Back now.
+- Menu titles and options get the red "you" treatment too.
+
+### Fixed
+
+- Text Speed actually works. Before it was changing a variable that slow_print didn't even use.
+- The easter egg doesn't just do nothing on the second try anymore. It tells you you already found it.
+- "Go Back" in settings actually goes back instead of saying nothing is here.
+- Fixed the delay/text_speed mix-up in slow_print.
+
 ## 1.0.1 - 2026-10-16
 
 Menu changes, settings, and fixes.
